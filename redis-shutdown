@@ -1,5 +1,5 @@
 vim /usr/libexec/redis-shutdown
-
+```
 #!/bin/bash
 #
 # Wrapper to close properly redis and sentinel
