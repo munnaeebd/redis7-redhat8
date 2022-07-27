@@ -1,5 +1,5 @@
 vim /usr/libexec/redis-shutdown
-```
+
 #!/bin/bash
 #
 # Wrapper to close properly redis and sentinel
@@ -41,4 +41,4 @@ if [ -e "$SOCK" ] ; then
 else
         $REDIS_CLI -h $HOST -p $PORT $ADDITIONAL_PARAMS shutdown
 fi
-```
+
